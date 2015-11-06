@@ -1,0 +1,7 @@
+name 'couch_potato'
+maintainer 'J. Morgan Lieberthal'
+maintainer_email 'j.morgan.lieberthal@gmail.com'
+license 'mit'
+description 'Installs/Configures couch_potato'
+long_description 'Installs/Configures couch_potato'
+version '0.1.1'

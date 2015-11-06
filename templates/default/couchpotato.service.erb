@@ -1,0 +1,13 @@
+[Unit]
+Description=CouchPotato Application Instance
+After=network.target
+
+[Service]
+ExecStart=/opt/CouchPotato/CouchPotato.py --daemon
+GuessMainPID=no
+Type=forking
+User=couchpotato
+Group=couchpotato
+
+[Install]
+WantedBy=multi-user.target
